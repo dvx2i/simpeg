@@ -1,0 +1,59 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2021-08-11 00:16:25 --> 404 Page Not Found --> shell
+ERROR - 2021-08-11 00:20:54 --> 404 Page Not Found --> robots.txt
+ERROR - 2021-08-11 01:04:10 --> 404 Page Not Found --> config
+ERROR - 2021-08-11 01:52:35 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 03:24:36 --> 404 Page Not Found --> robots.txt
+ERROR - 2021-08-11 03:47:46 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 04:22:14 --> 404 Page Not Found --> .env
+ERROR - 2021-08-11 04:42:15 --> 404 Page Not Found --> robots.txt
+ERROR - 2021-08-11 05:24:35 --> Severity: Notice  --> Undefined index: HTTP_HOST /var/www/html/application/config/config.php 21
+ERROR - 2021-08-11 05:24:35 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 06:34:40 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 07:49:22 --> Severity: Notice  --> Undefined index: HTTP_HOST /var/www/html/application/config/config.php 21
+ERROR - 2021-08-11 07:49:22 --> 404 Page Not Found --> setup.cgi
+ERROR - 2021-08-11 09:09:47 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 10:00:36 --> 404 Page Not Found --> robots.txt
+ERROR - 2021-08-11 10:46:27 --> 404 Page Not Found --> config
+ERROR - 2021-08-11 11:00:39 --> 404 Page Not Found --> assets
+ERROR - 2021-08-11 11:39:25 --> Severity: Notice  --> Undefined index: HTTP_HOST /var/www/html/application/config/config.php 21
+ERROR - 2021-08-11 11:39:25 --> 404 Page Not Found --> setup.cgi
+ERROR - 2021-08-11 12:42:55 --> 404 Page Not Found --> index.php
+ERROR - 2021-08-11 13:20:19 --> 404 Page Not Found --> api
+ERROR - 2021-08-11 13:20:19 --> 404 Page Not Found --> vendor
+ERROR - 2021-08-11 13:20:19 --> 404 Page Not Found --> vendor
+ERROR - 2021-08-11 13:20:20 --> 404 Page Not Found --> console
+ERROR - 2021-08-11 13:20:21 --> 404 Page Not Found --> wp-content
+ERROR - 2021-08-11 13:20:22 --> 404 Page Not Found --> solr
+ERROR - 2021-08-11 13:20:22 --> 404 Page Not Found --> _ignition
+ERROR - 2021-08-11 13:20:23 --> 404 Page Not Found --> Autodiscover
+ERROR - 2021-08-11 13:29:23 --> 404 Page Not Found --> config
+ERROR - 2021-08-11 14:27:39 --> 404 Page Not Found --> HNAP1
+ERROR - 2021-08-11 15:07:21 --> 404 Page Not Found --> config
+ERROR - 2021-08-11 15:33:53 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 16:20:02 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 17:48:42 --> 404 Page Not Found --> admin
+ERROR - 2021-08-11 18:22:07 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 18:44:42 --> 404 Page Not Found --> config
+ERROR - 2021-08-11 19:06:54 --> 404 Page Not Found --> robots.txt
+ERROR - 2021-08-11 19:22:24 --> 404 Page Not Found --> .env
+ERROR - 2021-08-11 19:22:24 --> 404 Page Not Found --> vendor
+ERROR - 2021-08-11 19:22:25 --> 404 Page Not Found --> storage
+ERROR - 2021-08-11 19:22:25 --> 404 Page Not Found --> public
+ERROR - 2021-08-11 19:22:26 --> 404 Page Not Found --> login
+ERROR - 2021-08-11 19:22:26 --> 404 Page Not Found --> app
+ERROR - 2021-08-11 19:22:26 --> 404 Page Not Found --> config
+ERROR - 2021-08-11 21:17:13 --> 404 Page Not Found --> index.php
+ERROR - 2021-08-11 21:45:41 --> 404 Page Not Found --> assets
+ERROR - 2021-08-11 21:54:33 --> 404 Page Not Found --> HNAP1
+ERROR - 2021-08-11 22:00:37 --> 404 Page Not Found --> robots.txt
+ERROR - 2021-08-11 22:01:11 --> 404 Page Not Found --> assets
+ERROR - 2021-08-11 22:36:44 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 22:42:59 --> Severity: Notice  --> Undefined index: HTTP_HOST /var/www/html/application/config/config.php 21
+ERROR - 2021-08-11 22:42:59 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 23:09:13 --> 404 Page Not Found --> boaform
+ERROR - 2021-08-11 23:10:43 --> 404 Page Not Found --> assets
+ERROR - 2021-08-11 23:20:36 --> 404 Page Not Found --> index.php
+ERROR - 2021-08-11 23:56:06 --> 404 Page Not Found --> assets
+ERROR - 2021-08-11 23:56:07 --> 404 Page Not Found --> assets

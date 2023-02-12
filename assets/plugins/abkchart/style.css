@@ -1,0 +1,372 @@
+body {
+  font-family: Calibri, Segoe, "Segoe UI", "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+/* It's supposed to look like a nodes diagram */
+.nodes, .nodes ul, .nodes li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.nodes {
+    margin: 0 0 1em;
+    text-align: center;
+}
+.nodes, .nodes ul {
+    display: table;
+}
+.nodes ul {
+  width: 100%;
+}
+
+.nodes .after-assistant  {
+    width: 100%;
+    padding-top: 320px;
+  }
+
+    .nodes li {
+        display: table-cell;
+        padding: .5em 0;
+        vertical-align: top;
+    }
+
+    @media print {
+        .nodes .equal .title-chart {
+            box-sizing: border-box;
+            padding: 6px 8px;
+            width: auto;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: bold;
+            height: 54px; 
+            /* overflow: hidden; */
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            background-color: #006699;
+            color: #fff;
+            /* border-radius: 4px 4px 0 0; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            -webkit-print-color-adjust: exact; 
+        }
+    }
+    
+    .nodes .bagan .title-chart {
+        box-sizing: border-box;
+        padding: 6px 8px;
+        width: auto;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 61px; 
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        /* background-color: #e17572; */
+        /* color: #fff; */
+        /* border-radius: 4px 4px 0 0; */
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .nodes .equal .title-chart {
+        box-sizing: border-box;
+        padding: 6px 8px;
+        width: auto;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 54px; 
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        background-color: #006699;
+        color: #fff;
+        /* border-radius: 4px 4px 0 0; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .nodes .min .title-chart {
+        box-sizing: border-box;
+        padding: 6px 8px;
+        width: auto;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 54px; 
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        background-color: #009933;
+        color: #fff;
+        /* border-radius: 4px 4px 0 0; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .nodes .plus .title-chart {
+        box-sizing: border-box;
+        padding: 6px 8px;
+        width: auto;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 54px; 
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        background-color: #e17572;
+        color: #fff;
+        /* border-radius: 4px 4px 0 0; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        /* _________ */
+        .nodes li:before {
+            outline: solid 1px #666;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .nodes li:first-child:before {left: 50%;}
+        .nodes li:last-child:before {right: 50%;}
+        
+        .nodes .connector:after {
+            outline: solid 1px #666;
+            content: "";
+            left: 50%;
+            position: absolute;
+            right: -30%;
+            top: 357%;
+        }
+
+        .nodes code, .nodes span {
+            /* border: solid .1em #d9121b; */
+            /* border-radius: .2em; */
+            display: inline-block;
+            margin: 0 .2em .5em;
+            padding: 0;
+            position: relative;
+            /* min-width: 380px; */
+        }
+        
+        /*.nodes assistant:before {
+            outline: solid 1px #666;
+            content: "";
+            left: -49%;
+            position: absolute;
+            right: 100%;
+            top: 47%;
+        }*/
+        
+        .nodes space {
+            /* border: solid .1em #d9121b; */
+            /* border-radius: .2em; */
+            display: inline-block;
+            margin: 100px .2em .5em;
+            padding: .2em .5em;
+            position: relative;
+        }
+        
+        .nodes assistant {
+            /* border: solid .1em #d9121b; */
+            /* border-radius: .2em; */
+            display: inline-block;
+            margin: 131px .2em .5em;
+            padding: .2em 0;
+            position: relative;
+        }
+        /* If the nodes represents DOM structure */
+        .nodes code {
+            font-family: monaco, Consolas, 'Lucida Console', monospace;
+        }
+
+            /* | */
+            .nodes ul:before,
+            .nodes code:before,
+            .nodes span:before {
+                outline: solid 1px #666;
+                content: "";
+                height: .5em;
+                left: 50%;
+                position: absolute;
+            }
+            
+            .nodes .after-assistant:before{
+                outline: solid 1px #666;
+                content: "";
+                height: 23.2em;
+                left: 50%;
+                position: absolute;
+            }
+
+            .nodes .connector:before{
+                outline: solid 1px #666;
+                content: "";
+                height: 1.5em;
+                left: 50%;
+                position: absolute;
+            }
+            
+            .nodes ul:before {
+                top: -.5em;
+            }
+            .nodes code:before,
+            .nodes span:before {
+                top: -.5em;
+            }
+
+            
+            /* | level 2 */
+            .nodes space:before{
+                outline: solid 1px #666;
+                content: "";
+                height: 106px;
+                left: 50%;
+                position: absolute;
+            }
+            .nodes space:before{
+                top: -6.75em;
+            }
+            
+
+/* The root node doesn't connect upwards */
+.nodes > li {margin-top: 0;}
+    .nodes > li:before,
+    .nodes > li:after,
+    .nodes > li > code:before,
+    .nodes > li > span:before {
+      outline: none;
+    }
+
+    .bagan table .border-none,
+    .bagan table .border-none th,
+    .bagan table .border-none td {
+      border: none;
+      /* padding-left: 5px; */
+      padding: 6px 8px;
+      /* text-align: left; */
+      font-size: 1.1rem;
+    }
+
+    .bagan table,
+    .bagan table th,
+    .bagan table td {
+      border: solid 2.3px #666;
+      border-collapse: collapse;
+      height: 24px; 
+    }
+    
+    .bagan table td.plus {
+        background-color: #e17572;
+        border: solid .1em #e17572;
+        color: #fff;
+        border-collapse: collapse;
+        height: 24px; 
+      }
+
+    
+      .bagan table td.min {
+        background-color: #fff200;
+        border: solid .1em #fff200;
+        border-collapse: collapse;
+        height: 24px; 
+      }
+      
+      .bagan table td.equal {
+        background-color: #009933;
+        border: solid .1em #009933;
+        border-collapse: collapse;
+        height: 24px; 
+      }
+      
+    .khusus table .border-none,
+    .khusus table .border-none th,
+    .khusus table .border-none td {
+      border: none;
+      /* padding-left: 5px; */
+      padding: 6px 8px;
+      /* text-align: left; */
+      font-size: 1.1rem;
+    }
+    .khusus table,
+    .khusus table th,
+    .khusus table td {
+        border: solid 2.3px #666;
+      border-collapse: collapse;
+      height: 24px; 
+    }
+    
+    .khusus table td.plus {
+        background-color: #e17572;
+        border: solid .1em #e17572;
+        color: #fff;
+        border-collapse: collapse;
+        height: 24px; 
+      }
+
+    
+      .khusus table td.min {
+        background-color: #fff200;
+        border: solid .1em #fff200;
+        border-collapse: collapse;
+        height: 24px; 
+      }
+      
+      .khusus table td.equal {
+        background-color: #009933;
+        border: solid .1em #009933;
+        border-collapse: collapse;
+        height: 24px; 
+      }
+    
+
+
+    .khusus table td.title-chart {
+        box-sizing: border-box;
+        padding: 6px 8px;
+        width: auto;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 61px; 
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        /* background-color: #e17572; */
+        /* color: #fff; */
+        /* border-radius: 4px 4px 0 0; */
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+    
+
+
+    
+/* .nodes .connector {
+	border-left: rgba(217, 83, 79, 0.8) dashed 2px; 
+	border-bottom: rgb(102 102 102) solid 2px;
+	position: absolute;
+    left: -62%;
+    width: 92%;
+    height: 12.5px;
+    top: 20.4%;
+} */
+
+.title-chart span {
+    vertical-align: middle;
+}
